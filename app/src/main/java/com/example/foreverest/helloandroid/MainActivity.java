@@ -22,7 +22,10 @@ public class MainActivity extends AppCompatActivity {
         else {
             editText.setText("");
         }
+    }
 
+    public void crashButtonOnClick(View view) {
+        int a = 1/0; //exception
     }
 
 }
