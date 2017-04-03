@@ -4,6 +4,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import com.microsoft.azure.mobile.MobileCenter;
+import com.microsoft.azure.mobile.analytics.Analytics;
+import com.microsoft.azure.mobile.crashes.Crashes;
+import com.microsoft.azure.mobile.distribute.Distribute;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        MobileCenter.start(getApplication(), "15dd2285-a3f4-431a-9640-2695aa37e8a7",
+                Analytics.class, Crashes.class, Distribute.class);
     }
 
     public void switchButtonOnClick(View view) {
