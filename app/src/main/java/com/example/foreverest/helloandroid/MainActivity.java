@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void switchButtonOnClick(View view) {
-        EditText editText = (EditText) findViewById(R.id.editText);
-        String message = editText.getText().toString();
-        if (message.isEmpty()) {
-            editText.setText("Hello Android !");
-        }
-        else {
-            editText.setText("");
-        }
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        if (message.isEmpty()) {
+//            editText.setText("Hello Android !");
+//        }
+//        else {
+//            editText.setText("");
+//        }
     }
 
     public void crashButtonOnClick(View view) {
