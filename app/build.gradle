@@ -25,6 +25,17 @@ android {
             applicationIdSuffix ".custom"
         }
     }
+    productFlavors {
+        demo {
+            applicationIdSuffix ".demo"
+            versionNameSuffix "-demo"
+        }
+        full {
+            applicationIdSuffix ".full"
+            versionNameSuffix "-full"
+        }
+    }
+
 }
 
 dependencies {
