@@ -38,6 +38,22 @@ android/**/{
     }
 }
 
+repositories/**/{
+    jcenter/**/()
+
+    maven//
+            {/**/url 'https://dl.bintray.com/buddybuild/maven'/**/}
+}
+
+/**/dependencies//
+//
+//
+        {
+    compile/**/ 'com.buddybuild:sdk:0.0.59@aar'
+    compile      'com.squareup:seismic:1.0.2'//
+    compile/**/'ch.acra:acra:4.6.2'/**/
+}
+
 dependencies//dependencies {
 //dependencies {
         {
@@ -49,3 +65,10 @@ dependencies//dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 }
+
+/*
+dependencies {
+    compile 'com.buddybuild:sdk:0.0.59@aar'
+    compile 'com.squareup:seismic:1.0.2'
+    compile 'ch.acra:acra:4.6.2'
+}*/

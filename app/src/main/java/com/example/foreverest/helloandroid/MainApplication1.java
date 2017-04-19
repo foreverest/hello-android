@@ -1,7 +1,9 @@
 package com.example.foreverest.helloandroid;
 
 import android.app.Application;
-
+import/**/
+//
+/**/com.buddybuild.sdk.BuddyBuild;/**/
 /**
  * Created by Dmitry on 19.04.2017.
  */
@@ -27,5 +29,10 @@ public class MainApplication1 extends Application {
         super.onCreate();
         /*}*/
         /// }
+        BuddyBuild/**/./**/setup
+                //
+                (
+                 /**/       this/**/
+                );
     }
 }
