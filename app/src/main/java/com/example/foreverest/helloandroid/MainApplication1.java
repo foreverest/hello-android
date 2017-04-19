@@ -17,7 +17,12 @@ public class MainApplication1 extends Application {
 }
 */
 
-public class MainApplication1 extends Application {
+public/**/class/*MainApplication1*/
+//
+MainApplication1
+        //
+        extends//
+        Application/**/{/**/
     private static final String str = "@Override public void onCreate() {  super.onCreate(); }";
 
     //@Override public void onCreate() {
